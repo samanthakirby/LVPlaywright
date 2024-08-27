@@ -3,7 +3,7 @@ This is just a small demo project for the LawVu website. I only used minimal tes
 
 ## How to run
 1. Download project
-2. In your command line: NPM install
+2. In your command line: npm install
 3. In your command line: npx playwright test or npx playwright test --ui
 
 ## Used in project
