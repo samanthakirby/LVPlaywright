@@ -1,7 +1,8 @@
 import { test, expect } from '@playwright/test';
 
 test('User with incorrect email and password are presented with the correct validation message', async ({ page }) => {
-  await page.goto('https://lawvu.com/');
+  //Navigate to the baseUrl
+  await page.goto('/');
 
   await expect(page).toHaveURL('https://lawvu.com/');
 
