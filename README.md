@@ -8,5 +8,5 @@ This is just a small demo project for the LawVu website. I only used minimal tes
 
 ## Used in project
 1. Playwright latest version at time of creation: 1.46
-2. Accessability check using Google Lighthouse
+2. Accessability check using @axe-core/playwright (Google Lighthouse)
 3. Github for version control and Github Action
