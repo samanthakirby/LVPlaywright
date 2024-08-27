@@ -63,3 +63,7 @@ For your interest if you're not running these tests yourself:
       helpUrl: 'https://dequeuniversity.com/rules/axe/4.10/region?application=playwright',
       nodes: [Array]
     }
+
+## What I would do with more time
+1. Add in page object models to make the tests more maintainable
+2. Visual testing for images
