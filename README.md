@@ -11,6 +11,9 @@ This is just a small demo project for the LawVu website. I only used minimal tes
 2. Accessability check - @axe-core/playwright 4.10.0
 3. Github for version control and Github Action
 
+## Github Action
+Upon merge to the main branch, the automation tests will run.
+
 ## Accessability check
 Interested on your accessability? Here's how to read the results of your home page:
 1. Command line: npx playwright run
@@ -67,3 +70,7 @@ For your interest if you're not running these tests yourself:
 ## What I would do with more time
 1. Add in page object models to make the tests more maintainable
 2. Visual testing for images
+
+## Current recommendation
+1. Consider addressing the accessibility violations to make it easier for visually impared users to enjoy your site.
+2. Add specific test attributes on all the elements on your site to reduce test flakiness and increase the speed that automation tests can be created to increase cover of your website.
