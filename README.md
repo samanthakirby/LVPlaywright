@@ -5,6 +5,7 @@ This is just a small demo project for the LawVu website. I only used minimal tes
 1. Download project
 2. Command line: npm install
 3. Command line: npx playwright test or npx playwright test --ui
+4. Command line: npx playwright show-report (to view the html report)
 
 ## Packages in project
 1. Playwright latest version at time of creation: 1.46
